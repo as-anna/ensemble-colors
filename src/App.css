@@ -1,0 +1,53 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 6rem;
+  overflow: scroll;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
+  min-height: 4.5rem;
+  background: rgb(102, 102, 128);
+  bottom: 0;
+  justify-self: anchor-center;
+  align-content: center;
+}
+
+.result {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  color: white;
+  margin-left: 1rem;
+}
+
+.active-color {
+  position: absolute;
+  place-self: anchor-center;
+  bottom: 11rem;
+}
+
+.finish-button {
+  position: absolute;
+  right: 1rem;
+  align-self: anchor-center;
+  background-color: rgb(29, 29, 39);
+  border: unset;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  border-radius: 5px;
+  border: solid white 2px;
+  color: white;
+  padding: 5px 15px 8px 15px;
+}
