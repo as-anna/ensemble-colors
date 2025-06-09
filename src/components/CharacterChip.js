@@ -8,7 +8,7 @@ const CheckSvg = () => <svg viewBox="0 0 24 24" title="Check"><path d="M9 16.17 
 const CrossSvg = () => <svg viewBox="0 0 24 24" title="Close"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
 
 export const CharacterChip = ({ character, activeColor, showResults, userAnswers, setUserAnswers, setActiveColorStack }) => {
-    const { key, name, color: correctColor } = character;
+    const { key, name, color: correctColor, image } = character;
     const [selectedColor, setSelectedColor] = useState(null);
     const [isHovered, setIsHovered] = useState(false);
     const { correctAnswersMap } = useCorrectAnswers({userAnswers});
@@ -54,7 +54,7 @@ export const CharacterChip = ({ character, activeColor, showResults, userAnswers
                 {showResults && <div className='result-badge' style={resultBadgeStyle}>
                     {isCorrect ? <CheckSvg/> : <CrossSvg/>}
                 </div>}
-                <img alt={name} src={`/images/${key}.webp`} className='chara-img' />
+                <img alt={name} src={image} className='chara-img' />
                 <div className='name'>{name}</div>
             </div>
         </div>
