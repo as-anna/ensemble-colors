@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ensemble-colors/static/css/main.6af9858b.css",
-    "main.js": "/ensemble-colors/static/js/main.87abc745.js",
+    "main.js": "/ensemble-colors/static/js/main.ea19fe60.js",
     "static/js/453.e370f387.chunk.js": "/ensemble-colors/static/js/453.e370f387.chunk.js",
     "static/media/IBUKI.webp": "/ensemble-colors/static/media/IBUKI.8a6a7805d6287a701d7d.webp",
     "static/media/RAIKA.webp": "/ensemble-colors/static/media/RAIKA.17cf015bf4094c937615.webp",
@@ -59,11 +59,11 @@
     "static/media/RITSU.webp": "/ensemble-colors/static/media/RITSU.ef337954e195d6487c49.webp",
     "index.html": "/ensemble-colors/index.html",
     "main.6af9858b.css.map": "/ensemble-colors/static/css/main.6af9858b.css.map",
-    "main.87abc745.js.map": "/ensemble-colors/static/js/main.87abc745.js.map",
+    "main.ea19fe60.js.map": "/ensemble-colors/static/js/main.ea19fe60.js.map",
     "453.e370f387.chunk.js.map": "/ensemble-colors/static/js/453.e370f387.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6af9858b.css",
-    "static/js/main.87abc745.js"
+    "static/js/main.ea19fe60.js"
   ]
 }
